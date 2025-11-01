@@ -1,0 +1,45 @@
+<div class="max-w-lg mx-auto my-10">
+  <h2 class="text-2xl font-bold text-center text-teal-700 mb-8 uppercase">User Form</h2>
+
+  <form class="space-y-6">
+    <!-- Username -->
+    <div>
+      <label for="username" class="block mb-2 text-sm font-medium text-gray-700">User Name</label>
+      <input type="text" id="username" name="username"
+        class="block w-full border border-gray-300 rounded-lg focus:border-teal-500 focus:ring-2 focus:ring-teal-200 focus:outline-none py-2 px-3 text-gray-800"
+        placeholder="Enter your name" required />
+    </div>
+
+    <!-- Age -->
+    <div>
+      <label for="age" class="block mb-2 text-sm font-medium text-gray-700">User Age</label>
+      <input type="number" id="age" name="age"
+        class="block w-full border border-gray-300 rounded-lg focus:border-teal-500 focus:ring-2 focus:ring-teal-200 focus:outline-none py-2 px-3 text-gray-800"
+        placeholder="Enter your age" required />
+    </div>
+
+    <!-- Email -->
+    <div>
+      <label for="email" class="block mb-2 text-sm font-medium text-gray-700">User Email</label>
+      <input type="email" id="email" name="email"
+        class="block w-full border border-gray-300 rounded-lg focus:border-teal-500 focus:ring-2 focus:ring-teal-200 focus:outline-none py-2 px-3 text-gray-800"
+        placeholder="Enter your email" required />
+    </div>
+
+    <!-- Password -->
+    <div>
+      <label for="password" class="block mb-2 text-sm font-medium text-gray-700">User Password</label>
+      <input type="password" id="password" name="password"
+        class="block w-full border border-gray-300 rounded-lg focus:border-teal-500 focus:ring-2 focus:ring-teal-200 focus:outline-none py-2 px-3 text-gray-800"
+        placeholder="Enter your password" required />
+    </div>
+
+    <!-- Button -->
+    <div class="text-center">
+      <button type="submit"
+        class="bg-teal-600 text-white font-semibold py-2 px-8 rounded-lg hover:bg-teal-700 transition-all duration-300">
+        Send Message
+      </button>
+    </div>
+  </form>
+</div>
